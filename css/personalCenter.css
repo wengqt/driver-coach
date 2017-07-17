@@ -88,18 +88,27 @@ body{
     text-align: center;
     border-top: 1px solid rgb(242,242,242);
     border-bottom: 1px solid rgb(242,242,242);
+
+}
+.mainbodyBgc{
+    background-color: #fff;
 }
 .mainbody_active{
     border-bottom: 2px solid #2d9dff;
+}
+.mainbodyInfo{
+    padding-bottom: 2rem;
+    background-color: rgb(242,242,242);
 }
 .comment div{
     height: 4rem;
     line-height: 4rem;
 }
-.commentContent{
+.commentTitle{
     display: flex;
     height: 3rem;
     line-height: 3rem;
+    border-bottom: 1px solid rgb(242,242,242);
 }
 
 
