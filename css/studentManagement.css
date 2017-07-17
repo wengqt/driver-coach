@@ -64,7 +64,7 @@ body{
 .footer{
     column-count: 3;
     column-gap: 0;
-    column-rule:1px outset lightgray;
+
     text-align: center;
 
     font-size: 1.4rem;

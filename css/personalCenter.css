@@ -96,7 +96,11 @@ body{
     height: 4rem;
     line-height: 4rem;
 }
-
+.commentContent{
+    display: flex;
+    height: 3rem;
+    line-height: 3rem;
+}
 
 
 
@@ -105,7 +109,6 @@ body{
 .footer{
     column-count: 3;
     column-gap: 0;
-    column-rule:1px outset lightgray;
     text-align: center;
 
     font-size: 1.4rem;
