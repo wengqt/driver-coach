@@ -40,7 +40,27 @@ body{
     border-bottom: 1px solid lightgray;
     color: black;
 }
+.config{
+    position: absolute;
+    width: 8rem;
 
+    top: 6rem;
+    right: 4rem;
+    text-align: center;
+}
+.config div{
+    height: 3rem;
+    line-height: 3rem;
+    border: 1px solid #2d9dff;
+    font-size: 1.5rem;
+    background-color: white;
+}
+.config div:first-child{
+    height: 2rem;
+    line-height: 2rem;
+    background-color: #2d9dff;
+    color: white;
+}
 .footer{
     column-count: 3;
     column-gap: 0;
