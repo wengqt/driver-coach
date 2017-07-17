@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(242,242,242);
+}
+.top{
+    width: 100%;
+    height: 18rem;
+    background:linear-gradient(to right,rgb(114,114,114),rgb(49,49,49));
+    position: relative;
+}
+.topBottom{
+    width: 26rem;
+    background-color: rgb(242,242,242);
+    height: 2.8rem;
+    line-height: 2.8rem;
+    color: black;
+    margin: 0 auto;
+}
+.student{
+    width: 90%;
+    height: 12.6rem;
+    padding-top: 1rem;
+    align-items: center;
+    margin: 0 auto;
+    column-count: 3;
+    display: flex;
+
+    justify-content: space-around;
+    font-size: 1.8rem;
+    color: white;
+}
+.pic{
+    width: 7rem;
+    height: 7rem;
+}
+.middleDiv{
+
+    font-size: 1.7rem;
+}
+.middleDiv div{
+    margin-bottom: 0.2rem;
+}
+.subject{
+    background-color: #2d9dff;
+    width: 7rem;
+    text-align: center;
+}
+.carNumber{
+    background-color: rgb(242,242,242);
+    border-radius: 0.3rem;
+    color: black;
+    text-align: center;
+}
+.topBottom{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.mainbody{
+    font-size: 1.7rem;
+    background-color: #fff;
+}
+.bodyTop{
+    width: 90%;
+    margin: 1rem auto 0;
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+.bodyTop div{
+    display: flex;
+    align-items: center;
+}
+.point{
+    color: #2d9dff;
+
+}
+.comment{
+    font-size: 1.6rem;
+    column-count: 5;
+    column-gap: 0;
+    text-align: center;
+    border-top: 1px solid rgb(242,242,242);
+    border-bottom: 1px solid rgb(242,242,242);
+}
+.mainbody_active{
+    border-bottom: 2px solid #2d9dff;
+}
+.comment div{
+    height: 4rem;
+    line-height: 4rem;
+}
+
+
+
+
+
+
+.footer{
+    column-count: 3;
+    column-gap: 0;
+    column-rule:1px outset lightgray;
+    text-align: center;
+
+    font-size: 1.4rem;
+    background-color: white;
+    border-top: 2px solid lightgray;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-item{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-item>img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
