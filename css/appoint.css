@@ -4,14 +4,14 @@
 }
 
 .top-bar{
-    column-count: 3;
+    column-count: 2;
     column-gap: 0;
     column-rule:1px outset lightgray;
     text-align: center;
 
     font-size: 1.4rem;
 
-    border-bottom: 2px solid lightgray;
+    border-bottom: 1px solid lightgray;
     margin: 0;
 }
 .top-bar>div{
