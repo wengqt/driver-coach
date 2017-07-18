@@ -23,8 +23,99 @@
     /* box-sizing: border-box; */
     border-bottom: 2px solid #2d9dff;
 }
+.mainbody{
+
+    margin: 2rem auto 0;
+
+}
+.top,.bottom{
+    column-count: 7;
+    column-gap: 0;
+    text-align: center;
 
 
+}
+.top{
+    height: 2.6rem;
+    line-height: 2.6rem;
+    font-size: 1.6rem;
+    background-color: #2d9dff;
+    color: #ffffff;
+}
+.bottom{
+    height: 4rem;
+    column-rule: 1px outset #E4E4E4;
+    /*border-bottom: 1px solid #E4E4E4;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-around;*/
+}
+.bottom div{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.word{
+    font-size: 1.7rem;
+    color: #2d9dff;
+    height: 3rem;
+    line-height: 3rem;
+}
+.topTitle{
+    height: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    background-color: #2d9dff;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.topTitle div:first-child{
+    width:20%;
+}
+.topTitle div:nth-child(2){
+    width:50%;
+}
+.topTitle div:last-child{
+
+    width: 15%;
+}
+.line{
+    background-color: #E4E4E4;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 3.8rem;
+    line-height: 3.8rem;
+}
+.line div:first-child{
+    border-right: 1px solid #F2F2F2;
+    width: 20%;
+    line-height: 1.9rem;
+}
+.line div:last-child{
+    border-left:2px solid #F2F2F2;
+    width: 15%;
+}
+.line div:nth-child(2){
+
+    width:50%;
+}
+.content{
+    border-bottom: 1px solid #f2F2F2;
+}
+.alertInfo{
+    height: 4rem;
+    line-height: 4rem;
+    color: #ffffff;
+    background-color: #f00;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius:0 0 0.8rem 0.8rem;
+
+}
 .footer{
     column-count: 3;
     column-gap: 0;
@@ -50,4 +141,30 @@
 .footer-item>img{
     width: 2.5rem;
     height: 2.5rem;
+}
+.calenderContent,.word,.topTitle,.content,.alertInfo{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #F2F2F2;
+}
+.calendar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+
+    width: 10%;
+
+}
+.icon img{
+    display: block;
+    margin: 0 auto;
+}
+.rotate{
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); 	/* IE 9 */
+    -moz-transform:rotate(182deg); 	/* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+    -o-transform:rotate(180deg);
 }
