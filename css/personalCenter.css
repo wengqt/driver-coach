@@ -93,11 +93,14 @@ body{
 .mainbodyBgc{
     background-color: #fff;
 }
+.mainbodyBgc div{
+    justify-content: flex-start;
+}
 .mainbody_active{
     border-bottom: 2px solid #2d9dff;
 }
 .mainbodyInfo{
-    padding-bottom: 2rem;
+    padding-bottom: 1.2rem;
     background-color: rgb(242,242,242);
 }
 .comment div{
@@ -109,8 +112,28 @@ body{
     height: 3rem;
     line-height: 3rem;
     border-bottom: 1px solid rgb(242,242,242);
+    align-items: center;
+}
+.commentTitle div:first-child{
+    margin-left: 1rem;
+}
+.commentTitle div:nth-child(2){
+    display: flex;
+    align-items: center;
+    margin-left: 4.5rem;
+    width: 8.8rem;
+    justify-content: space-between;
+}
+.commentTitle div:last-child{
+    margin-left: 3rem;
+
 }
 
+.content{
+    padding-left: 0.5rem;
+    padding-right: 0.1rem;
+
+}
 
 
 
