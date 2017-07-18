@@ -1,0 +1,119 @@
+.bottomActive{
+    color: #2d9dff;
+}
+.top{
+    width: 86%;
+    margin: 2rem auto 0;
+    background-color: #2d9dff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.5rem;
+}
+.top div:nth-child(2){
+    font-size: 2.2rem;
+    color: #ffffff;
+}
+body{
+    background-color: rgb(242,242,242);
+}
+.mainbody{
+    width: 86%;
+    margin: 5rem auto 0;
+    background-color: #ffffff;
+    display: flex;
+    height: 10rem;
+}
+.mainLeft{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.mainRight>div{
+
+    height: 5rem;
+    line-height: 5rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.bold{
+    font-weight: bold;
+    width:60%;
+}
+.mainRight{
+    width: 80%;
+}
+
+.rightDiv{
+    border-bottom: 1px solid #E4E4E4;
+}
+.blue{
+    background-color: #2d9dff;
+    color: #ffffff;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 0.5rem;
+    width: 36%;
+    text-align: center;
+}
+.orange{
+    border-radius: 0.5rem;
+    background-color: #ff9900;
+    color: #ffffff;
+    width: 36%;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.time{
+    width: 86%;
+    margin: 5rem auto 0;
+    background-color: #2d9dff;
+    color: #ffffff;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 2.2rem;
+
+    font-weight: bold;
+}
+.footer{
+    column-count: 3;
+    column-gap: 0;
+    background-color: #fff;
+    text-align: center;
+
+    font-size: 1.4rem;
+
+    border-top: 2px solid lightgray;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-item{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-item>img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.triangle-up {
+    width:0;
+    height:0;
+    border-left:30px solid red;
+    border-right:30px solid blue;
+    border-bottom:30px solid black;
+}
