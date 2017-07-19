@@ -1,8 +1,14 @@
 .bottomActive{
     color: #2d9dff;
 }
+.mainbody{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 1.7rem;
+}
 .top{
-    width: 86%;
+
     margin: 2rem auto 0;
     background-color: #2d9dff;
     display: flex;
@@ -20,70 +26,147 @@
 body{
     background-color: rgb(242,242,242);
 }
-.mainbody{
-    width: 86%;
-    margin: 5rem auto 0;
-    background-color: #ffffff;
+.middle>div:first-child{
+    padding-top: 1rem;
     display: flex;
-    height: 10rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    justify-content: space-between;
 }
-.mainLeft{
-    width: 20%;
+.middle>div:nth-child(2){
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
     justify-content: space-around;
-    align-items: center;
-    font-size: 1.6rem;
-}
-.mainRight>div{
-
-    height: 5rem;
-    line-height: 5rem;
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-}
-.bold{
+    font-size: 1.8rem;
     font-weight: bold;
-    width:60%;
-}
-.mainRight{
-    width: 80%;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
 }
 
-.rightDiv{
-    border-bottom: 1px solid #E4E4E4;
+.middleWord{
+    width: 45%;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
 }
+.middle>div:last-child{
+    column-count: 2;
+    height: 4rem;
+    line-height: 4rem;
+    column-gap: 0;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.line{
+    height: 4rem;
+    line-height: 4rem;
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #bcbcbc;
+}
+.line>div:first-child{
+    display: flex;
+}
+.line>div:first-child>div:first-child{
+    width: 2rem;
+}
+
 .blue{
     background-color: #2d9dff;
-    color: #ffffff;
-    height: 4rem;
-    line-height: 4rem;
-    border-radius: 0.5rem;
-    width: 36%;
-    text-align: center;
 }
-.orange{
-    border-radius: 0.5rem;
-    background-color: #ff9900;
-    color: #ffffff;
-    width: 36%;
-    height: 4rem;
-    line-height: 4rem;
-    text-align: center;
+.gray{
+    background-color: #bcbcbc;
 }
-.time{
-    width: 86%;
-    margin: 5rem auto 0;
-    background-color: #2d9dff;
-    color: #ffffff;
-    height: 4rem;
-    line-height: 4rem;
-    text-align: center;
-    font-size: 2.2rem;
+.iconBus{
+    position: absolute;
+    top: 18.7rem;
+    left: 3.2rem;
+}
 
-    font-weight: bold;
+
+
+
+.alertBox>div:first-child{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #bcbcbc;
 }
+.alertBox>div:last-child{
+    column-count:2;
+    column-rule: 1px outset #bcbcbc;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.7rem;
+
+}
+.alertBox{
+    width: 60%;
+    position: absolute;
+    left:50%;
+    top: 40%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%); 	/* IE 9 */
+    -moz-transform:translate(-50%,-50%); 	/* Firefox */
+    -webkit-transform:translate(-50%,-50%); /* Safari 和 Chrome */
+    -o-transform:translate(-50%,-50%); 	/* Opera */
+    background-color: #fff;
+    height: 9rem;
+    z-index: 2;
+    border-radius: 0.5rem;
+    display: none;
+}
+
+
+.promt{
+    width: 60%;
+    position: absolute;
+    left:50%;
+    top: 40%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%); 	/* IE 9 */
+    -moz-transform:translate(-50%,-50%); 	/* Firefox */
+    -webkit-transform:translate(-50%,-50%); /* Safari 和 Chrome */
+    -o-transform:translate(-50%,-50%); 	/* Opera */
+    background-color: #fff;
+    height: 11rem;
+    z-index: 2;
+    border-radius: 0.5rem;
+    display: none;
+}
+.promt div:first-child{
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.9rem;
+}
+.promt div:nth-child(2){
+    height: 4.5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.promt div:last-child{
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    font-size: 2rem;
+    border-top: 1px solid #bcbcbc;
+}
+
+
 .footer{
     column-count: 3;
     column-gap: 0;
@@ -110,10 +193,3 @@ body{
     height: 2.5rem;
 }
 
-.triangle-up {
-    width:0;
-    height:0;
-    border-left:30px solid red;
-    border-right:30px solid blue;
-    border-bottom:30px solid black;
-}
