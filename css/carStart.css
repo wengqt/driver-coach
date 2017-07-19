@@ -91,10 +91,52 @@ body{
 .iconBus{
     position: absolute;
     top: 18.7rem;
-    left: 3.2rem;
+    left: 1.6rem;
 }
 
+.topList{
+    position:absolute;
+    left: 50%;
+    top: 9rem;
+    transform: translate(-50%,0);
+    width: 90%;
+    background-color: #2d9dff;
+    text-align: center;
 
+}
+.Listword {
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color: white;
+    border-bottom: 1px solid #ffffff;
+}
+.triangleDiv{
+    position:absolute;
+    left: 50%;
+    top: 8rem;
+    transform: translate(-50%,0);
+    width: 2rem;
+    margin: 0 auto;
+    background-color: transparent;
+    height: 1rem;
+    border: 1px solid #ffffff;
+}
+.Listout{
+    display: none;
+}
+.triangle{
+    margin: 0 auto;
+    width: 0px;
+    height: 0;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1rem solid #2d9dff;
+    background-color: #fff;
+}
+.Listword:last-child{
+    border: none;
+}
 
 
 .alertBox>div:first-child{
