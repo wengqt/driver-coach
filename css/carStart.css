@@ -146,6 +146,7 @@ body{
     z-index: 2;
     border-radius: 0.5rem;
     display: none;
+
 }
 .promt div:first-child{
     height: 3rem;
