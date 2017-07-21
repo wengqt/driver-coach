@@ -162,3 +162,13 @@ body{
     width: 2.5rem;
     height: 2.5rem;
 }
+a div div{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+
+    color: black;
+    text-decoration: none;
+
+}
