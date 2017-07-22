@@ -4,6 +4,7 @@
 var set =document.getElementsByClassName("set");
 var config=document.getElementById("config");
 var outer=document.getElementById("outer");
+var blueBottom=document.getElementsByClassName("blueBottom");
 
 for(var i=0;i<set.length;i++){
     (function (e) {
@@ -19,4 +20,16 @@ function noneOuter() {
 
     outer.style.display="none";
     config.style.display="none";
+}
+for(var i=0;i<blueBottom.length;i++){
+    (function (e) {
+        blueBottom[e].onclick=function () {
+            blueBottom[e].className='blueBottom top-active';
+            blueBottom[(e+1)%6].className="blueBottom";
+            blueBottom[(e+2)%6].className="blueBottom";
+            blueBottom[(e+3)%6].className="blueBottom";
+            blueBottom[(e+4)%6].className="blueBottom";
+            blueBottom[(e+5)%6].className="blueBottom";
+        }
+    })(i)
 }

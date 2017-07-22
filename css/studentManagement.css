@@ -103,7 +103,7 @@ body{
     height: 100%;
     z-index: 1;
     background-color: transparent;
-    /*display: none;*/
+    display: none;
 }
 .config{
 

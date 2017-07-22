@@ -30,11 +30,11 @@
         <div>综合评分<img src="imgs/star.png"><span class="point">4.9分</span></div>
     </div>
     <div class="comment">
-        <div class="mainbody_active">最新评价</div>
-        <div>好评</div>
-        <div>中评</div>
-        <div>差评价</div>
-        <div>全部评价</div>
+        <div class="blueBottom mainbody_active">最新评价</div>
+        <div  class="blueBottom">好评</div>
+        <div class="blueBottom">中评</div>
+        <div class="blueBottom">差评价</div>
+        <div class="blueBottom">全部评价</div>
     </div>
     <div class="mainbodyInfo">
         <div class="mainbodyBgc">
@@ -73,6 +73,21 @@
     </div></a>
 </div>
 </body>
+<script>
+    var blueBottom=document.getElementsByClassName("blueBottom");
+    for(var i=0;i<blueBottom.length;i++){
+        (function (e) {
+            blueBottom[e].onclick=function () {
+                blueBottom[e].className='blueBottom mainbody_active';
+                blueBottom[(e+1)%5].className="blueBottom";
+                blueBottom[(e+2)%5].className="blueBottom";
+                blueBottom[(e+3)%5].className="blueBottom";
+                blueBottom[(e+4)%5].className="blueBottom";
+
+            }
+        })(i)
+    }
+</script>
 </html>
 
 
