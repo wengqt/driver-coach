@@ -3,8 +3,15 @@
     padding: 0;
 
 }
+html{
+    width: 100%;
+    height: 100%;
+}
 body{
+    width: 100%;
+    height: 100%;
     background-color: rgb(242,242,242);
+    position: relative;
 }
 .top-bar{
     column-count: 6;
@@ -47,6 +54,7 @@ body{
     top: 6rem;
     right: 4rem;
     text-align: center;
+    display: none;
 }
 .config div{
     height: 3rem;
@@ -54,6 +62,7 @@ body{
     border: 1px solid #2d9dff;
     font-size: 1.5rem;
     background-color: white;
+
 }
 .config div:first-child{
     height: 2rem;
@@ -86,4 +95,32 @@ body{
 .footer-item>img{
     width: 2.5rem;
     height: 2.5rem;
+}
+#outer{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: transparent;
+    /*display: none;*/
+}
+.config{
+
+    z-index: 2;
+}
+
+a div div{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+
+    color: black;
+    text-decoration: none;
+
+}
+a{
+    color: black;
+    text-decoration: none;
 }

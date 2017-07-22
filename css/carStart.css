@@ -1,15 +1,18 @@
 .bottomActive{
     color: #2d9dff;
 }
+body{
+    background-color: #ffffff;
+}
 .mainbody{
-
+    padding-top: 2rem;
     margin: 0 auto;
     background-color: #fff;
     font-size: 1.7rem;
 }
 .top{
 
-    margin: 2rem auto 0;
+    margin: 0 auto;
     background-color: #2d9dff;
     display: flex;
     justify-content: space-between;
