@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ body{
+    background: url("../imgs/loginpic.jpg") no-repeat center center fixed;
+   background-position:center;
+   background-size: cover;
+ }
+
+ .login{
+      position:absolute;
+    margin:auto;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    width:28rem;
+    height:25rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+ }
+
+ .log-title{
+     font-size: 2rem;
+     text-align: center;
+     height: 4rem;
+     line-height: 4rem;
+
+ }
+
+ .login-box{
+     /* display: inline-block; */
+     font-size: 2rem;
+     height: 4rem;
+     width: 80%;
+     border: 1px solid lightgray;
+     margin: 0 auto;
+ }
+.login-box img{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    display: inline-block;
+}
+.login-box input{
+    /* margin-left: 4rem; */
+    display: inline-block;
+    border: 0;
+    width: 70%;
+}
+
+
+.chk_1 { 
+    display: none; 
+} 
+ 
+.chk_1 + label {
+	background-color: #FFF;
+	border: 1px solid #C1CACA;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	padding: 9px;
+	border-radius: 5px;
+	display: inline-block;
+    position: relative;
+    float:left;
+	/* margin-right: 30px; */
+}
+.chk_1 + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.chk_1:checked + label {
+	background-color: #ECF2F7;
+	border: 1px solid #92A1AC;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+	color: #243441;
+}
+
+.chk_1:checked + label:after {
+	content: '\2714';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #758794;
+	width: 100%;
+	text-align: center;
+	/* font-size: 1.4em; */
+	padding: 1px 0 0 0;
+	vertical-align: text-top;
+}
+.remember-log{
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+
+.blue-button{
+    
+    height: 3rem;
+    line-height: 3rem;
+    width: 10rem;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: white;
+    background-color: #2d9dff;
+    border-radius: 0.3rem;
+}
+
+.bottom-w{
+    color: white;
+    position: absolute;
+    bottom: 3rem;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+}
+
+
